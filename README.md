@@ -20,3 +20,5 @@ struct MemoryGame<CardContent> where CardContent: StringProtocol {
 Here I've used `StringProtocol` on `CardContent` generic type because that's what the current views know how to draw as a content. This should be a more generic protocol where adopters specify how content is drawn rather than what is its identity.
 
 Also, I'm not using the custom `Array` extensions used in the lectures because I didn't feel like repeating what the native `firstIndex(where:)` function already do just for the convenience of passing it a card object instead of comparing ids.
+
+I liked how the `Grid` is designed, keeps preferred aspect ratio with the ability to have a row with less than max count. Another way to do grids can be found [here](https://www.hackingwithswift.com/quick-start/swiftui/how-to-position-views-in-a-grid): 
