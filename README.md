@@ -22,3 +22,5 @@ Here I've used `StringProtocol` on `CardContent` generic type because that's wha
 Also, I'm not using the custom `Array` extensions used in the lectures because I didn't feel like repeating what the native `firstIndex(where:)` function already do just for the convenience of passing it a card object instead of comparing ids.
 
 I liked how the `Grid` is designed, keeps preferred aspect ratio with the ability to have a row with less than max count. Another way to do grids can be found [here](https://www.hackingwithswift.com/quick-start/swiftui/how-to-position-views-in-a-grid).
+#### Assignment 2
+Ok this one was fun, you can find the solution [here](https://github.com/ATahhan/CardShuffle/tree/assignment-2). Something worth mentioning is that I don't think this is the best solution, there might be better ways to achieve the goal or I might be even totally wrong. Please take it for just what it is and nothing more.
