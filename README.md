@@ -28,3 +28,11 @@ Ok this one was fun, you can find the solution [here](https://github.com/ATahhan
 ## Lecture 5
 
 Following on the same project: [CardShuffle](https://github.com/ATahhan/CardShuffle), in this lecture we had a chance to refactor some of the old code, and learn more about and apply @ViewBuilder wrapper, as well as the ViewModifier protocol. Check [lecture-5](https://github.com/ATahhan/CardShuffle/tree/lecture-5) branch.
+
+## Lecture 6
+
+Last lecture working on the project [CardShuffle](https://github.com/ATahhan/CardShuffle). We've looked at the animations in SwiftUI and how they can be derived by the app state itself. Unfortunately the way animations are presented in the course isn't the best IMHO, here are a couple more resources to help you better understand this subject (in case you feel lost like I did):
+- Most important resource on SwiftUI animations is the [interactive toturial](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions) by Apple itself. Really amazing resource to get introduced into the subject.
+- [Animation Juice in SwiftUI](https://www.dotconferences.com/2020/02/pavel-zak-animation-juice-in-swiftui) by [Pavel Zak](https://twitter.com/myridiphis) also gives a great introduction and explains important concepts around the SwiftUI animations not covered by the course.
+- A worth mentioning tutorial is this [article](https://www.answertopia.com/swiftui/swiftui-animation-and-transitions/) I've used some of the code samples provided, really amazing
+- [This one](https://www.dotconferences.com/2020/02/tobias-due-munk-prototyping-custom-ui-in-swiftui) isn't about SwiftUI animations exactly, but it's showing its great potential and is very, very fun to watch.
